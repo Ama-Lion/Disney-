@@ -1,0 +1,197 @@
+
+@media screen and (max-width: 1200px) {
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    /* ?-------------HEADER------------*/
+   header{
+    height: 100vh;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+  }
+    .logo{
+     height: 40px;
+     margin-left: 30px;
+    }
+    .register{
+        position: absolute;
+        bottom: 10px;
+        left: 30%;
+    }
+    .connect {
+        border: none; 
+        background-color: rgba(0, 0, 0, 0); 
+        color: white;
+        margin-left: 100px;
+    }
+    /*  ?------------INTRO--------- */
+    .intro{
+        width: 100%;
+        height: 100vh;
+       background-image: url("./assets/olp_hero_mobile_UKI_FR.jpg");
+          
+    }
+    .intro-box{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+       height: 75vh;
+    }
+
+    .intro-text{
+        font-size: 20px;
+        text-align: center;
+    }
+    .subscribe{
+        flex-direction: column;
+    }
+    .sub{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+       margin: 30px auto;
+    }
+    .little-text-1, .little-text-2 {
+        font-size: 10px;
+        margin: 0px;
+      }
+      .price {
+        font-size: 1rem;
+        margin: 0px;
+      }
+      .sub-text {
+        margin: 5px;
+        font-size: 10px;
+      }
+      .sub-button {
+        font-size: 12px;
+        text-transform: uppercase;        
+        height: 50px;
+        width: 70%;
+        margin-top: 10px;
+      }
+      .sub-p {
+        font-size: 10px;
+         
+      }
+      hr{
+          display: block;  
+          width: 65%;
+          margin: auto;
+      
+      }
+      .franchise {
+       display: none;
+      }
+      .arrow-down{
+        right: 45%;
+        bottom: 80px;
+        height: 10px;
+      }
+      .intro-connect {
+        border: none; 
+        background-color: rgba(0, 0, 0, 0); 
+        right: 16px;
+        top: 10px;
+       overflow: hidden;
+       font-size: 13px;
+       padding: 0px;
+       margin: 0px;
+       width: 30%;
+      }
+      .mob-none{
+          display: none;
+      }
+      .desk-none{
+          display: inline;
+          text-align: center;
+      }
+
+   /*  ?------------BOXES--------- */
+  .box{
+      width: 100%;
+   flex-direction: column;
+ height: 100%;
+ display: flex;
+margin: 0px;
+
+ }
+ .box img{
+     width: 100%;
+     height: 300px;
+     margin-top: 90px;
+ }
+ .box .tex-container{
+     width: 100%;
+ }
+.box .tex-container h1{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+}
+
+.tex-container p {
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+/*  ?------------ACCESSIBLE--------- */
+.accessible{
+    font-size: 22px;
+    margin-top: 50px;
+}
+.accessible-boxes{
+   width: 100%; 
+   flex-wrap: wrap;
+   text-align: center;
+   align-items: center;
+}
+.accessible-box{
+    width: 50%;
+}
+.accessible-box  h1{
+    font-size: 20px;
+    width: 100%;
+    margin: 0px;
+}
+.device{
+    height: 150px;
+    width: 200px;
+}
+.computer{
+    margin-bottom: 80px;
+}
+.console{
+    margin-bottom: 40px;
+}
+
+/*  ?------------FOOTER-------- */
+footer{
+    width: 100%; 
+    text-align: center;
+    align-items: center;
+}
+
+.first-list{
+    width: 100%; 
+    flex-wrap: inherit;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.first-list li{
+width: 40%;
+margin: 10px;
+font-size: 15px;
+text-align: center;
+
+}
+}
